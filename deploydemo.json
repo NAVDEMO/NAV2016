@@ -4,6 +4,7 @@
     "parameters": {
         "name": {
             "type": "string",
+            "maxLength": 15,
             "metadata": {
                 "Description": "Select the name of the Microsoft Dynamics NAV 2016 deployment"
             }
